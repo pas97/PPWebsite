@@ -63,7 +63,7 @@ h4 {
 .nav_link2::after {
     content: "";
     height: 4px;
-    width: 26%;
+    width: 100%;
     background: black;
     display: block;
     position: absolute;
