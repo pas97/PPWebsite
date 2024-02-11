@@ -1,0 +1,101 @@
+a {
+    font-weight: bolder;
+    color:white;
+    text-decoration: none;
+    background: none;
+
+}
+h2 {
+    margin-left: 41.5cm;
+    white-space: nowrap;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium';
+}
+body {
+    background-color: black;
+    background-image: url("https://pbs.twimg.com/media/C7X9MluX4AAbmbU.png"), url("https://www.scienceshumaines.com/pics_bdd/facebook/1556019415_MARX.png"), url("https://images.fineartamerica.com/images/artworkimages/medium/3/friedrich-nietzsche-filip-schpindel-transparent.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 825px;
+    width: 825px;
+    background-position: 2.1cm, 11cm;
+    background-position-y: 2.5cm, 28cm, 51.5cm;
+    margin: 0px;
+}
+h3 {
+    position: absolute;
+    padding: 0px 42px;
+    margin-top: -1.7cm;
+    border: none;
+    border-radius: 40px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium';
+    color: rgb(161, 19, 19);
+}
+h4 {
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 37px;
+    margin-top: 3.5cm;
+    margin-left: 33.5cm;
+}
+.one{
+    color: white;
+    text-align: justify;
+    margin-inline-end: -24cm;
+    margin-inline-start: 24cm;
+    margin-top: 2cm;
+    font-size: 33px;
+
+}
+section {
+    background-color: gray;
+    border-color:gray ;
+    padding: 0.02px;
+    width: 233%;
+    position: sticky;
+    top: 0;
+}
+.two {
+    color: white;
+    text-align: justify;
+    font-size: 33px;
+    margin-inline-end: -1.5cm;
+    margin-inline-start: 1.5cm;
+}
+h5 {
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 37px;
+    margin-top: 10cm;
+    margin-left: 10cm;
+}
+.three {
+    color: white;
+    text-align: justify;
+    font-size: 33px;
+    margin-inline-end: -26.5cm;
+    margin-inline-start: 26.5cm;
+}
+h6 {
+    color: white;
+    font-size: 37px;
+    font-family: 'Franklin Gothic Medium';
+    margin-top: 9cm;
+    margin-left: 33.5cm;
+    white-space: nowrap;
+}
+button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding: 15px 42px;
+    background-color: aqua;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:all 0.2s ease-out;
+
+}
+button:hover {
+    background-color: rgba(0, 255, 255, 0.671);
+}

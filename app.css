@@ -1,0 +1,45 @@
+h1 {
+    color : black;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 180px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+}
+p {
+    font-family: 'Franklin Gothic Medium';
+    margin: auto;
+}
+body {
+    background-image: url("https://www.lesamazonesparisiennes.com/wp-content/uploads/sites/70/2020/05/Rodin-le-penseur-philosophie.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.nav_link {
+    position: relative;
+}
+.nav_link::after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    background: black;
+    display: block;
+    position: absolute;
+    bottom: -6px;
+    opacity: 0;
+    transition: all 0.2s ease-out;
+    pointer-events: none;
+}
+.nav_link:hover::after {
+    opacity: 1;
+}
+.one {
+    font-size: 20px;
+    font-family: "Papyrus", sans-serif;
+}
